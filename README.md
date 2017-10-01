@@ -1,12 +1,5 @@
 ﻿# Terminal Cheatsheet for Mac (Basics)
 
-
-
-- [Polska wersja](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/polish)
-- [Versão em Portuguêse](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/portugues)
-- [Türkçe Versiyon](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/turkish)
-- [Phiên bản tiếng việt](https://github.com/0nn0/terminal-mac-cheatsheet/tree/master/tieng-viet)
-
 ------------
 
 _Letters are shown capitalized for readability only._  _Capslock should be off._
@@ -16,7 +9,6 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | ----------- | ----------- |
 | Ctrl + A   | Go to the beginning of the line you are currently typing on.  This also works for most text input fields system wide.  Netbeans being one exception |
 | Ctrl + E   | Go to the end of the line you are currently typing on.  This also works for most text input fields system wide.  Netbeans being one exception |
-| Ctrl + Q   | Clears everything on current line |
 | Ctrl + L   | Clears the Screen |
 | Cmd + K    | Clears the Screen |
 | Ctrl + U   | Cut everything backwards to beginning of line |
