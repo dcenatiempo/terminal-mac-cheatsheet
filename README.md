@@ -1,4 +1,4 @@
-﻿# Terminal Cheatsheet for Mac (Basics)
+# Terminal Cheatsheet for Mac (Basics)
 
 ------------
 
@@ -37,6 +37,8 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | cd ~ |  Home directory |
 | cd /  | Root of drive |
 | cd -  | Previous directory |
+| cd pushd | Push current directory to stack while navigating to different directory |
+| cd popd | Pop directory from stack and navigate there |
 | ls | Short listing |
 | ls -l | Long listing |
 | ls -a | Listing incl. hidden files |
@@ -81,7 +83,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | Key/Command | Description |
 | ----------- | ----------- |
 | touch [file] |   Create a new file |
-| pwd | Full path to working directory |
+| pwd | Full path of working directory |
 | . |  Current folder, e.g. `ls .` |
 | .. | Parent/enclosing directory, e.g. `ls ..` |
 | ls -l .. | Long listing of parent directory |
@@ -97,6 +99,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | pbcopy < [file] | Copies file contents to clipboard |
 | pbpaste | Paste clipboard contents |
 | pbpaste > [file] | Paste clipboard contents into file, `pbpaste > paste-test.txt` |
+| file | Gives details of requested file |
 
 ## DIRECTORY MANAGEMENT
 
@@ -123,6 +126,7 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | grep -i [search_pattern] [file] | Search for all lines that contain the case-insensitive pattern |
 | mdfind [search_pattern] | Spotlight search for files (names, content, other metadata), e.g. `mdfind skateboard` |
 | mdfind -onlyin [dir] -name [pattern] | Spotlight search for files named like pattern in the given directory |
+| locate | Search database to find file |
 
 ## HELP
 
@@ -134,6 +138,8 @@ _Letters are shown capitalized for readability only._  _Capslock should be off._
 | man [command] |  Show the help manual for [command] |
 | whatis [command] | Gives a one-line description of [command] |
 | apropos [search-pattern] | Searches for command with keywords in description |
+| which | displays path program is installed in |
+| history | list last 1000 unique commands |
 
 ## FUN
 
