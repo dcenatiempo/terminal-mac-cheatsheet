@@ -37,6 +37,11 @@
 | git diff --staging | show difference between index and repo |
 | git reset HEAD | reset the index  |
 | git reset --p | git will ask you which files you want to remove from the index |
+| git remote add upstream [username]| | new
+| git checkout [branchname] | change branches | new
+| git checkout -b [branchname] | create a new branch | new
+| git branch -M [oldname] [newname] | move (rename) branch | new
+
 
 ## Files
 
